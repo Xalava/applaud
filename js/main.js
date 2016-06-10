@@ -6,7 +6,7 @@ setInterval(
         	var valeurText = data.analog.toString();
 			$(".volume").html(valeurText);
 
-			var valeurPercent = data.analog/700*100
+			var valeurPercent = data.analog/500*100
 		
 			$('.progress-bar').css('width', valeurPercent+'%');
 
